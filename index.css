@@ -89,9 +89,24 @@ nav > .thelinks > ul > li > .LogIn{
   .row::after {
     content: "";
     clear: both;
-    display: table;
+    display: flex;
   }
 
-#sectlinks > .column {
+#sectlinks > .row > .column{
+    color: white;
+    background-color: black;
     display: flex;
+    justify-content: space-between;
+
+}
+
+#sectlinks > .row > .column > h2{
+    background-color: black;
+    border-style: hidden;
+    padding: 50px;
+}
+
+#sectlinks > .row > .column > h2 > ul{
+    text-align: center;
+    float: left;
 }
