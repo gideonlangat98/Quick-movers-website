@@ -65,12 +65,8 @@ nav > .thelinks > ul > li > .LogIn{
     justify-content: left;
 }
 
-#sectBody > . Body >{
+#sectBody > . Body{
     display: flex;
-}
-
-#sectBody > .Body > .lefside > .rightside{
-    width: 50%
 }
 
 #sectBody > .Body > .leftside{
@@ -80,9 +76,22 @@ nav > .thelinks > ul > li > .LogIn{
 }
 
 #sectBody > .Body > .rightside{
-    padding-right: 30px;
-    align-items: center;
+    display: flex;
+    align-items: right;
     justify-content: center;
 }
 
+.column {
+    float: left;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
+#sectlinks > .column {
+    display: flex;
+}
