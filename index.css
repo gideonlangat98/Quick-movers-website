@@ -96,17 +96,12 @@ nav > .thelinks > ul > li > .LogIn{
     color: white;
     background-color: black;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 #sectlinks > .row > .column > h2{
-    background-color: black;
-    border-style: hidden;
-    padding: 50px;
+    border-style: outset;
 }
 
-#sectlinks > .row > .column > h2 > ul{
-    text-align: center;
-    float: left;
-}
