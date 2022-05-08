@@ -9,29 +9,20 @@ body{
     background-color: whitesmoke;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
+#secttop{
     background-color: black;
+    padding-top: 20px;
+}
+
+#secttop > .topnav-right > a{
     color: white;
-    padding-top: 10px;
-    padding-bottom: 5px;
 }
 
-nav > .topnav > ul > li{
-    display: inline-block;
-    padding: 10px;
-    justify-content: right;
-    font-size: small;
-}
+.topnav-right{
+        float: right;
+        margin-top: 40px;
+      }
 
-.button{
-    padding: 15px;
-    color: black;
-    background-color: yellow;
-    border-top-right-radius: 12px;
-    border-color: yellow;
-}
 
 #secthead{
     color: white;
