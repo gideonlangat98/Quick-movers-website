@@ -1,19 +1,29 @@
 *{
     padding: 10px;
-    margin: 5px;
+    margin-right: 10px;
 }
 body{
     padding: 0px;
     margin: 0px;
     }
 
-.topnav-right {
+#secttop > .topnav-right > a{
+    color: white;
+}
+
+.topnav-right{
         float: right;
+        margin-top: 10px;
       }
+
+.Button{
+    background-color: yellow;
+}
 
 .bg-img{
     background-image: url("./assets/images/background.png");
     height: 60vh;
+    margin-left: 50px;
 }
 
 #sectHeader > .Header > h3{
@@ -71,7 +81,7 @@ body{
 }
 
 #sectlinks > .row > .column > h2{
-    border-style: outset;
+    border-style: dashed;
 }
 
 
