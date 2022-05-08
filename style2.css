@@ -41,18 +41,24 @@ nav > .topnav > ul > li{
 
 #sectdetails > .details{
     display: flex;
+    background-color: whitesmoke;
+    width: 100%;
 }
 
 #sectdetails > .leftside{
     display: flex;
     justify-content: left;
-    margin-top: 60px;
-    margin-left: 60px;
+    margin-top: 100px;
 }
 
-#sectdetails > .rightside{
-    display: flex;
-    justify-content: center;
-    float: right;
-    align-items: right;
-}
+.btn-group button {
+    background-color: white;
+    border: 1px white;
+    color: Black;
+    padding: 2px 6px;
+    margin-left: 50px;
+    margin-top: 30px;
+    cursor: pointer; 
+    width: 50%; 
+    display: block;
+  }
