@@ -73,6 +73,7 @@ nav > .topnav > ul > li{
 
 #sectdescript{
     background-color: whitesmoke;
+    width: 50%;
 }
 
 #sectdescript > .descript > h3{
@@ -83,6 +84,46 @@ nav > .topnav > ul > li{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+p{
+    margin: 20px;
+}
+
+.column {
+    float: center;
+    padding-right: 5px;
+  }
+  
+  .row::after {
+    content: normal;
+    clear: both;
+    display: flex;
+  }
+
+  #sectfeatures > .row > .column{
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 0px;
+}
+
+#sectfeatures > .row > .column > h4 > ul{
+    display: flex;
+    padding-right: 5px;
+}
+
+#sectcolumn > .column{
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-right: 20px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: flex;
+  }
 
 
 
