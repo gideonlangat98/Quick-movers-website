@@ -11,9 +11,48 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 nav > .topnav > ul > li{
     display: inline-block;
     padding: 10px;
+    justify-content: right;
+    font-size: small;
+}
+
+.button{
+    padding: 15px;
+    color: black;
+    background-color: yellow;
+    border-top-right-radius: 12px;
+    border-color: yellow;
+}
+
+#secthead{
+    color: white;
+    background-color: black;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+#sectdetails > .details{
+    display: flex;
+}
+
+#sectdetails > .leftside{
+    display: flex;
+    justify-content: left;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+#sectdetails > .rightside{
+    display: flex;
+    justify-content: center;
+    float: right;
+    align-items: right;
 }
