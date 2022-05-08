@@ -3,27 +3,33 @@
     margin: 10px;
 }
 body{
-    background-color: white;
     padding: 0;
     margin: 0;
 }
 
 nav{
-    background-color: azure;
     display: flex;
     justify-content: space-between;
 }
 
-nav > .logo > h3{
-    font-size: 20px;
+.bg-image{
+    opacity: 0.8;
+    background-image: url("./assets/images/background.png");
+    background-size: cover; 
+    background-position: center center;
+    height:100vh;
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+
+
+    
 }
 
-nav > .thelinks > ul > li{
-    padding: 10px;
-}
 
-nav > .thelinks > ul > li{
-    display: inline-flex;
+nav >  .bg-image> .thelinks > ul > li{
+    display: inline-block;
 }
 
 nav > .thelinks > ul > li > .Login{
@@ -33,18 +39,11 @@ nav > .thelinks > ul > li > .Login{
 nav > .thelinks > ul > li > .LogIn{
     color: yellow;
     background-color: black;
-    border-color: yellow;
+    border-color: black;
 }
 
 #sectHeader{
-    opacity: 0.8;
-    background-image: url("./assets/images/background.png");
-    background-size: cover; 
-    background-position: center center;
-    height:80vh;
-    display: flex;
-    align-items: left;
-    justify-content: left;
+    
 }
 
 #sectHeader > .Header > h3{
@@ -65,7 +64,7 @@ nav > .thelinks > ul > li > .LogIn{
     justify-content: left;
 }
 
-#sectBody > . Body{
+#sectBody > .Body{
     display: flex;
 }
 
@@ -75,7 +74,7 @@ nav > .thelinks > ul > li > .LogIn{
     align-items: left;
 }
 
-#sectBody > .Body > .rightside{
+#sectBody > .Body > .leftside > .rightside{
     display: flex;
     align-items: right;
     justify-content: center;
@@ -104,4 +103,6 @@ nav > .thelinks > ul > li > .LogIn{
 #sectlinks > .row > .column > h2{
     border-style: outset;
 }
+
+
 
