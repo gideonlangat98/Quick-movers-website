@@ -13,11 +13,20 @@ body{
 
 .topnav-right{
         float: right;
-        margin-top: 10px;
+        margin-top: 40px;
       }
 
-.Button{
+.Button1{
     background-color: yellow;
+    padding: 6px;
+    font-size: 10px;
+}
+
+.Button2{
+    color: yellow;
+    background-color: black;
+    padding: 6px;
+    font-size: 10px;
 }
 
 .bg-img{
@@ -28,14 +37,14 @@ body{
 
 #sectHeader > .Header > h3{
     color: yellow;
-    font-size: 30px;
+    font-size: 40px;
 }
 
-#sectHeader > .Header > h3 > p{
+#sectHeader > .Header > p{
     color: white;
-    font-size: 30px;
-    margin-top: 30px;
+    font-size: x-large;
 }
+
 
 #sectBody{
     margin-top: 5px;
