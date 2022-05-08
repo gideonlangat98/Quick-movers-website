@@ -1,32 +1,19 @@
 *{
-    padding: 5px;
-    margin: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 body{
-
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     }
 
+.topnav-right {
+        float: right;
+      }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-nav > .thelinks > ul > li{
-    display: inline-block;
-}
-
-nav > .thelinks > ul > li > .Login{
-    background-color: yellow;
-}
-
-nav > .thelinks > ul > li > .LogIn{
-    color: yellow;
-    background-color: black;
-    border-color: black;
+.bg-img{
+    background-image: url("./assets/images/background.png");
+    height: 60vh;
 }
 
 #sectHeader > .Header > h3{
@@ -36,7 +23,7 @@ nav > .thelinks > ul > li > .LogIn{
 
 #sectHeader > .Header > h3 > p{
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 30px;
 }
 
